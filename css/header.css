@@ -1,0 +1,149 @@
+header {
+  background-color: var(--purple-color);
+  width: 100%;
+}
+
+.menu {
+  background: var(--purple-color);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  height: 9rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list li {
+  margin-right: 3rem;
+}
+
+.nav-list li a {
+  font-size: 1.8rem;
+  /* margin-right: 3rem; */
+  font-weight: 500;
+  color: white;
+  transition: all .15s;
+}
+
+.nav-list li a:hover {
+  color: rgba(255, 255, 255, 0.589);
+}
+
+.nav-list li hr {
+  transition: all .15s;
+}
+
+.nav-list li:hover hr {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+hr {
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: 0px 0px;
+}
+
+.logo-and-nav {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.toggle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/* ----------- 1 Section -------------  */
+
+.section-one-picture img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section-one {
+  padding-top: 9rem;
+  width: 100%;
+  height: 68rem;
+
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 4.4rem;
+  margin-bottom: 3rem;
+}
+
+.buttons button,
+.free,
+.section-faixa .section-description button {
+  border: none;
+  padding: 1.3rem 2.5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--purple-color);
+  border-radius: 3px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.play {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.play-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.play img {
+  width: 70%;
+}
+
+.buttons p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin: 0;
+}

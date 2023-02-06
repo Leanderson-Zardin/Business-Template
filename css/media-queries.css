@@ -1,0 +1,260 @@
+/*------------- 1400px -------------*/
+
+@media(max-width: 1399px) {
+  .container {
+    width: 112rem;
+  }
+  .section-one {
+    height: 61rem;
+  }
+
+  .container-flex,
+  .container-service {
+    width: 110rem;
+  }
+  .section-history {
+    height: 65rem;
+  }
+
+  .section-description {
+    padding: 0rem 29rem;
+  }
+
+  .section-faixa .section-description {
+    padding: 0rem 30rem;
+  }
+}
+
+/*------------- 1200px -------------*/
+
+@media(max-width: 1199px) {
+  .container {
+    width: 93rem;
+  }
+  .section-one {
+    height: 53rem;
+  }
+  .container-flex {
+    width: 83rem;
+  }
+
+  .section-description,
+  .section-faixa .section-description {
+    padding: 0rem 20rem;
+  }
+
+  .video {
+    width: 80rem;
+    height: 40rem;
+  }
+
+  .card-price {
+    padding: 4rem;
+  }
+
+  .grid-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .container-contact {
+    display: block;
+  }
+  .informations,
+  .contact {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .informations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  .info {
+    margin: 0;
+  }
+  .contact p {
+    padding: 0rem 15rem;
+  }
+}
+
+/*------------- 990px -------------*/
+
+@media(max-width: 989px) {
+  header {
+    height: 105rem;
+  }
+  .container {
+    width: 70rem;
+  }
+  nav {
+    display: none;
+  }
+  .section-one {
+    flex-direction: column;
+    padding-top: 14rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+  .navbar {
+    height: 7rem;
+  }
+  .toggle {
+    border: none;
+  }
+
+  .container-flex {
+    flex-direction: column;
+    width: 65rem;
+    justify-content: center;
+  }
+  .section-history {
+    height: 130rem;
+  }
+
+  .section-description {
+    padding: 0rem 7rem;
+  }
+  .grid-cards,
+  .grid-blog,
+  .grid-portfolio,
+  .grid-prices,
+  .grid-team {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-clients {
+    grid-template-columns: 25rem 25rem;
+  }
+
+  .video {
+    width: 70rem;
+    height: 35rem;
+  }
+
+  .section-faixa .section-description {
+    padding: 0rem 10rem;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+  .info-image {
+    display: inline-block;
+  }
+  .contact p {
+    padding: 0rem 10rem;
+  }
+
+  .container-footer {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  .first-footer,
+  .third-footer {
+    padding: 0;
+  }
+}
+
+/*------------- 768px -------------*/
+
+@media (max-width: 767px) {
+  .container {
+    width: min(50rem, 90%);
+  }
+  .section-one {
+    padding-top: 10rem;
+  }
+  header {
+    height: 87rem;
+  }
+
+  .box-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .section-description {
+    padding: 0rem 0rem;
+  }
+  .grid-cards,
+  .grid-prices,
+  .grid-blog,
+  .informations {
+    grid-template-columns: 1fr;
+  }
+
+  .video {
+    width: min(50rem, 90%);
+    height: 30rem;
+  }
+
+  .image-team {
+    height: 20rem;
+  }
+
+  .section-faixa .section-description {
+    padding: 0rem 0rem;
+  }
+
+  .grid-form {
+    grid-template-areas:
+    "name"
+    "email"
+    "phone"
+    "subject"
+    "text";
+    grid-template-columns: 1fr;
+  }
+  .contact p {
+    padding: 0rem 0rem;
+  }
+  .contact input,
+  .contact textarea {
+    font-size: 1rem;
+  }
+}
+
+/*------------- 571px -------------*/
+
+@media (max-width: 570px) {
+  .grid-portfolio,
+  .grid-team,
+  .grid-clients {
+    grid-template-columns: 1fr;
+  }
+
+  .first-container,
+  .second-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/*------------- 371px -------------*/
+
+@media (max-width: 370px) {
+  .buttons {
+    flex-direction: column;
+  }
+}
+
+/*------------- 251px -------------*/
+
+@media (max-width: 250px) {
+  .navbar {
+    flex-direction: column;
+    align-items: start;
+    height: 10rem;
+    gap: .5rem;
+  }
+  .navbar {
+    padding: 1rem 0rem;
+    width: 100%;
+  }
+  .section-one {
+    padding-top: 13rem;
+  }
+}

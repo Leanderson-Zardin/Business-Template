@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&family=Open+Sans&display=swap');
+
+:root {
+  --purple-color: rgb(123, 7, 146);
+  --purple-darker-color: rgb(102, 8, 121);
+  --purple-lighter-color: rgba(123, 7, 146, 0.555);
+  --span-gray-color: rgb(148, 145, 145);
+  --gray-background: rgba(233, 222, 222, 0.26);
+  --gray--darker-background: rgba(211, 204, 204, 0.384);
+  --gray-border: rgba(172, 172, 172, 0.486);
+  --list-gray-color: rgba(110, 107, 107, 0.808);
+  --gray-price: rgba(85, 82, 82, 0.822);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Inter";
+  text-decoration: none;
+  list-style: none;
+  font-size: 10px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container {
+  width: 130rem;
+  margin: 0 auto;
+}
+
+span {
+  color: var(--span-gray-color);
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  display: inline-block;
+  margin-bottom: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  line-height: 2.5rem;
+}
+
+.section-center .section-description button,
+.section-portfolio .section-description button,
+.section-team .section-description button{
+  background: white;
+}
+
+
+.section-description {
+  text-align: center;
+  padding: 0rem 38rem;
+  margin-bottom: 4rem;
+}
+
+.credits {
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  color: white;
+  font-weight: bold;
+  background: var(--purple-color);
+  position: fixed;
+  left: 2rem;
+  bottom: 2rem;
+  transition: all .15s;
+  cursor: pointer;
+}
+
+.link-back {
+  background: var(--purple-color);
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all .15s;
+}
+.link-back img {
+  width: 3rem;
+  padding: 1rem;
+}
+.link-back:hover,
+.credits:hover  {
+  transform: translatey(-1rem);
+  background: var(--purple-darker-color);
+}

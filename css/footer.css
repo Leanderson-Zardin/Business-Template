@@ -1,0 +1,82 @@
+.section-footer {
+  padding: 10rem 0rem;
+}
+
+.container-footer {
+  display: flex;
+}
+
+.first-footer,
+.third-footer {
+  flex: 2;
+  padding: 0rem 2rem;
+  box-sizing: border-box;
+}
+
+.second-footer {
+  flex: 1;
+}
+
+.first-footer .first-image {
+  margin-bottom: 2rem;
+}
+.first-footer p:first-of-type { 
+  margin-bottom: 4rem;
+}
+.first-footer p {
+  margin: 0;
+}
+
+.second-footer h3,
+.third-footer h3 {
+  font-size: 2.3rem;
+  margin-bottom: 3.5rem;
+}
+
+.second-footer li {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.third-footer form {
+  position: relative;
+  width: 100%;
+}
+
+.form-button {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.form-button button {
+  background: var(--purple-color);
+  border: none;
+  border-radius: .5rem;
+}
+
+.form-button img {
+  width: 2.5rem;
+  padding: .5rem .5rem;
+}
+
+.third-footer form input {
+  border: 1px solid var(--gray-border);
+  padding: 2rem 1rem 2rem 1.5rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.first-footer a {
+  font-size: 1.6rem;
+  color: var(--purple-color);
+}
+
+.first-container,
+.second-container {
+  display: flex;
+  width: 100%;
+  gap: 3rem;
+}
